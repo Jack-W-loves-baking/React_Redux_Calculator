@@ -1,0 +1,40 @@
+button {
+  position: relative;
+  color: white;
+  font-family: "Share Tech Mono";
+  font-size: 20px;
+  cursor: default;
+  outline: 1px solid black;
+  border: none;
+  height: 65px;
+  width: 80px;
+}
+
+button:hover {
+  color: black;
+  outline: 0.05em solid grey;
+  z-index: 3;
+}
+
+.numberButton {
+  background: #4d4d4d;
+}
+
+.cleanButton {
+  width: 160px;
+  background: rgb(172, 57, 57);
+}
+
+.operationButton {
+  background: rgb(102, 102, 102);
+}
+
+.equalButton {
+  background: rgb(0, 68, 102);
+  height: 130px;
+}
+
+.zeroButton {
+  background: #4d4d4d;
+  width: 160px;
+}

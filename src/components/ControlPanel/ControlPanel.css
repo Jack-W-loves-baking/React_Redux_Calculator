@@ -1,0 +1,20 @@
+.rows {
+  display: flex;
+  flex-direction: row;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.equalSign {
+  background: rgb(0, 68, 102);
+  height: 130px;
+  bottom: 5px;
+}
